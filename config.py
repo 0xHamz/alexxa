@@ -21,7 +21,7 @@ SUPPORT_GROUP = getenv("SUPPORT_GROUP", "robotprojectx")
 PROJECT_NAME = getenv("PROJECT_NAME", "Alexa")
 DATABASE_URL = os.environ.get("mongodb+srv://alexam:sad1899@cluster0.f5kx3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 OWNER = getenv("OWNER", "justthetech")
-OWNER_NAME=justthetech
+OWNER_NAME = getenv("OWNER", "justthetech")
 SOURCE_CODE = getenv("SOURCE_CODE", "github.com/Vckyou/Geez-MusicProject")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "15"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
